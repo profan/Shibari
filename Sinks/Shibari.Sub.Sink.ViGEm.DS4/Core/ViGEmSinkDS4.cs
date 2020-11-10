@@ -31,7 +31,7 @@ namespace Shibari.Sub.Sink.ViGEm.DS4.Core
         {
             _btnMap = new Dictionary<DualShock3Buttons, DualShock4Button>
             {
-                {DualShock3Buttons.Select, DualShock4Button.Share},
+                {DualShock3Buttons.Select, DualShock4SpecialButton.Touchpad},
                 {DualShock3Buttons.LeftThumb, DualShock4Button.ThumbLeft},
                 {DualShock3Buttons.RightThumb, DualShock4Button.ThumbRight},
                 {DualShock3Buttons.Start, DualShock4Button.Options},
